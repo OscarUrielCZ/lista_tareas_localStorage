@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Aplicación de tareas</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+    <div class="formulario">
+      <form onsubmit="javascript: return false;">
+        <table>
+          <tr>
+            <td><label for="materia">Materia</label></td>
+            <td><input id="materia" type="text" placeholder="Nombre de la materia"></td>
+          </tr>
+          <tr>
+            <td><label for="nombre">Tarea</label></td>
+            <td><input id="nombre" type="text" placeholder="Nombre de la tarea"></td>
+          </tr>
+          <tr>
+            <td><label for="descripcion">Descripción</label></td>
+            <td><textarea id="descripcion" rows="8" cols="80" placeholder="Escribe las especificaciones de la tarea"></textarea> </td>
+          </tr>
+          <tr>
+            <td><input type="submit" value="Guardar"></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+
+    <hr>
+
+    <div class="tareas">
+      <h2>Lista de tareas por hacer</h2>
+      <table id="tabla_tareas" border="1">
+        <tr>
+          <th>Materia</th>
+          <th>Tarea</th>
+          <th width="400">Descripción</th>
+          <th>Acciones</th>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

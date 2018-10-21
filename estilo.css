@@ -1,0 +1,16 @@
+body {
+  padding: 15px;
+}
+
+td {
+  padding: 7px;
+}
+
+input[type='text'] {
+  width: 580px;
+}
+
+a:hover {
+  color: red;
+  cursor: default;
+}
