@@ -18,7 +18,7 @@ window.addEventListener('load', function() {
       materia.value = dato.materia;
       nombre.value = dato.nombre;
       descripcion.value = dato.descripcion;
-      localStorage.removeItem(dato[1]);
+      localStorage.removeItem(valores[1]);
     }
   }
 
